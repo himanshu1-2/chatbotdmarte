@@ -1,5 +1,5 @@
 const dialogflow=require('dialogflow')
-const config=require('../../config/keys')
+
 const projectID=process.env.googleprojectId
 const credentials={
 client_email:process.env.client_email,
