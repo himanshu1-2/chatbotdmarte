@@ -18,7 +18,7 @@ let self=module.exports
             // The query to send to the dialogflow agent
             text: text,
             // The language used by the client (en-US)
-            languageCode: config.dialogLanguage,
+            languageCode: process.env.dialogLanguage,
           },
         },
 
